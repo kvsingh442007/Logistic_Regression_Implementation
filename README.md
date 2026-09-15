@@ -1,4 +1,4 @@
-A end-to-end Machine Learning pipeline using Logistic Regression and Scikit-Learn to predict passenger transportation on the Spaceship Titanic dataset, featuring automated feature engineering, multi-strategy imputation, and model persistence.
+An end-to-end Machine Learning pipeline using Logistic Regression and Scikit-Learn to predict passenger transportation on the Spaceship Titanic dataset, featuring automated feature engineering, multi-strategy imputation, and model persistence.
 
 **Preprocessing & Feature Engineering:** Extracts categorical features from complex IDs and cabin assignments, handling missing data using a hybrid strategy of KNN, median, and mode imputation.
 
