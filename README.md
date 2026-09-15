@@ -1,3 +1,11 @@
+A end-to-end Machine Learning pipeline using Logistic Regression and Scikit-Learn to predict passenger transportation on the Spaceship Titanic dataset, featuring automated feature engineering, multi-strategy imputation, and model persistence.
+
+**Preprocessing & Feature Engineering:** Extracts categorical features from complex IDs and cabin assignments, handling missing data using a hybrid strategy of KNN, median, and mode imputation.
+
+**Core Model & Pipeline:** Implements a scikit-learn Logistic Regression classifier with feature scaling and one-hot encoding, persisting fitted transformers via joblib to prevent data leakage.
+
+**Inference & Workflow:** Uses a clean, modular two-script architecture (train.py and test.py) to systematically train, evaluate, and generate Kaggle-ready submission predictions.
+
 # FEBS_TITANIC_PS_GROUP_7
 Contributions of members:
 Samay-
